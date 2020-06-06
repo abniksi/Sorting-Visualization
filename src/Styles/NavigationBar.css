@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    background: rgb(245,245,245);
+}
+
+.navBar {
+    background: rgb(112,128,144);
+    width: 100vw;
+    height: 10vh;
+    margin: 0 auto;
+}
+
+.innerNavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:black;
+    font-size: 100%;
+    font: Arial;
+    background-color: turquoise;
+    text-align:center;
+    transition: all 0.2s;
+    border: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+button:hover{
+    background-color:turquoise;
+    cursor: pointer;
+}

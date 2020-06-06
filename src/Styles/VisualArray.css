@@ -1,0 +1,11 @@
+.randomNumberContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.randomNumber{
+    margin: 1px;
+    background: turquoise;
+    width: 5px;
+}
